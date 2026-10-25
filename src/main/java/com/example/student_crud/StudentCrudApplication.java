@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StudentCrudApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Student CRUD application is starting...");
 		SpringApplication.run(StudentCrudApplication.class, args);
 	}
 
